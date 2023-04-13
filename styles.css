@@ -1,0 +1,301 @@
+:root {
+    --primary-500:#8eaaab;
+    --secundary-500:#ce9847;
+}
+
+
+body, html {
+    height: 100%;
+    
+}
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    
+}
+
+
+/* cabeçalho  */
+
+header {
+    border-bottom: 1px solid white;
+    background: #1f484a;
+    padding: 40px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 110px;
+    align-items: center;
+    
+    
+
+}
+
+.logo{
+    width: 120px;
+    font-family: 'Lobster', cursive;
+     font-size: 3.12rem; /*50px convertido para ficar responsivo */
+    color: white;
+
+}
+
+.lista {
+padding-left: 400px;
+
+}
+
+.lista, .homecadastro{
+    display:flex;
+    gap: 40px;
+    text-decoration: none;
+   
+    
+}
+
+.lista__link:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+.lista__link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;  /*20px convertido para ficar responsivo */
+    font-weight: bold;
+    
+}
+/* cabeçalho  */
+
+/* main  */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+
+.sobresite {
+    display: flex;
+    justify-content: center;
+    background-image: url("/mar.jpg");
+    background-color: #cccccc;
+    height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 5px 5px 5px #1f484a;
+   
+ 
+}
+
+
+.sobresite__texto {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 100px;
+}
+
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 3.12rem; /*50px convertido para ficar responsivo */
+    color: white;
+    font-weight: bold;
+
+}
+
+.faca{
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: white;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-right: 5em;
+    width: 400px;
+
+}
+
+.faca:hover {
+    transform: scale(1.040);
+    box-shadow: -10px 10px 10px white;
+}
+
+h3 {
+    font-size: 1.87rem; /*30px convertido para ficar responsivo */
+    margin-top: 30px;
+    margin-bottom: 50px ;
+    font-weight: bold;
+}
+
+.texto__faca {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.botaofaca {
+    font-size: 1.87rem; /*30px convertido para ficar responsivo */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+
+
+.texto {
+    color: white;
+    font-size: 1.25rem; /*20px convertido para ficar responsivo */
+
+}
+
+/* parte do pq fazer a numerologia */
+
+.porque {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+}
+
+h4 {
+    font-size: 1.87rem; /*30px convertido para ficar responsivo */
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.textoporque{
+    font-size: 1.25rem;  /*20px convertido para ficar responsivo */
+    
+}
+
+.blocoimagem{
+    margin-left: 10em;
+    margin-right: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.blocotexto{
+    margin-right: 10em;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.imagempensando {
+    width: 300px;
+    
+}
+
+/* duvida */
+
+.duvidas {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    background: #8eaaab;
+    height: 380px;
+    box-shadow: 5px 5px 5px #61999b;
+   
+}
+
+.colunaduvidas {
+    margin-left: 250px;
+}
+
+h5 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.87rem; /*30px convertido para ficar responsivo */
+    font-weight: bold;
+    color: white;
+    
+    
+}
+
+.pergunta {
+    display: flex;
+    color: white;
+    font-size: 1.56rem; /*25px convertido para ficar responsivo */
+    margin-bottom: 20px;
+}
+
+.resposta {
+    font-size: 1.25rem; /*20px convertido para ficar responsivo */
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* video de apresentação */
+
+h6{
+    font-size: 1.87rem; /*30px convertido para ficar responsivo */
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.youtube, .sobresite__video {
+    margin-top: 100px;
+}
+
+/* main  */
+
+/* rodape */
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    background:#1f484a;
+    
+    color: white;
+}
+
+.titulofooter {
+    font-size: 1.25px; /*20px convertido para ficar responsivo */
+}
+
+.redesocial{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logofooter {
+    width: 20px;
+}
+
+footer p{
+    padding-top: 40px;
+}
+
+.redesocial__icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.redesocial__nome {
+    margin-left: 15px;
+    font-size: 0.93rem; /*50px convertido para ficar responsivo */
+}
+
+/* main  */
