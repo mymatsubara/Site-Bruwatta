@@ -48,14 +48,14 @@ nav {
 /* section1  */
 
 main {
-    background-image: url("/tracejado.png");
+    background-image: url("tracejado.png");
     background-color: #DDE2C6;
     background-repeat: no-repeat;
     
 }
 
 .section1 {
-    background-image: url("/tracejado.png");
+    background-image: url("tracejado.png");
     background-color: #DDE2C6;
     background-repeat: no-repeat;
     display: flex;
@@ -106,7 +106,7 @@ h1 {
 /* section2  */
 
 .section2 {
-    background-image: url("/tracejadoinvertido.png");
+    background-image: url("tracejadoinvertido.png");
     background-color: #DDE2C6;
     background-repeat: no-repeat;
     display: flex;
