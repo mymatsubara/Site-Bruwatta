@@ -50,9 +50,9 @@ nav {
 .section1 {
     display: grid;
     grid-template-columns: 2fr 1fr; 
-    background: #DDE2C6;                                    /* background-image: url("/mar.jpg");  *//* background-position: center;background-repeat: no-repeat;background-size: cover; */
+    background-image: linear-gradient(to right, #DDE2C6 , white);                                   /* background-image: url("/mar.jpg");  *//* background-position: center;background-repeat: no-repeat;background-size: cover; */
     min-height: 500px;
-    border-bottom: 25px dotted black;
+    border-bottom: 15px dotted #34252F;
     
     box-shadow: 10px 10px 10px #1f484a; 
 }
@@ -60,9 +60,17 @@ nav {
 h2 {
     font-size:  clamp(2rem, 2vw, 5rem);
     font-weight: bold;
-    margin: 40px 0px;
+    margin: 40px;
     color: #34252F;
     font-family: 'Playfair Display', serif;
+    background: #BBC5AA;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+span {
+    color: #34252F;
+    font-weight: bold;
 }
 
 .sobresite{
@@ -73,6 +81,7 @@ h2 {
     margin: 0 40px;
     font-size:  clamp(1.1rem, 1.5vw, 1.6rem);
     color: #91818A;
+    padding-bottom: 60px;
     
 }
 
@@ -142,7 +151,7 @@ h3 {
 .section2 {
     display: grid;
     grid-template-columns: 1fr 2fr; 
-    background: #E6EED6;                                    /* background-image: url("/mar.jpg");  */
+    background-image: linear-gradient(to left, #DDE2C6 , white);                                   /* background-image: url("/mar.jpg");  */
     background-position: center;
     box-shadow: 10px 10px 10px #82b5b7; 
 }
@@ -151,7 +160,8 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 40px;
+    margin-top: 70px;
+    
     font-size:  clamp(1.1rem, 1.5vw, 1.6rem);
     color: #91818A;
 }
@@ -163,6 +173,16 @@ h3 {
     text-align: center;
     justify-content: center;
     margin-right: 40px;
+    
+}
+
+.txtpensando__porque {
+    border-style: inset ;
+    border-color: #34252f22;
+    width: 50vw;
+    margin-bottom: 30px;
+    padding: 10px;
+    
 }
 
 h4 {
@@ -238,11 +258,35 @@ footer {
 
 footer p {
     text-align: center;
+    font-size: clamp(0.5rem, 0.8vw, 1.2rem);
+    color: white;
+    font-weight: bold;
+    
+}
+
+.copy {
+    margin-top: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
 }
 
 .footerbloco {
-    display: flex;
-    flex-direction: column;
+    display: flex;   
     justify-content: flex-start;
     margin-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.footerbloco__redes{
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    text-decoration: none;
 }
