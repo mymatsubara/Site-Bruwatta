@@ -4,14 +4,14 @@
 }
 
 body {
-    font-family: 'Source Serif Pro', serif;      
+    font-family: 'Questrial', sans-serif;     
 }
 
 /* cabeçalho  */
 
 header {
     border-bottom: 1px solid white;
-    background: #1f484a;
+    background: #BBC5AA;
       
 }
 
@@ -27,7 +27,7 @@ nav {
     
     font-family: 'Lobster', cursive;
     font-size:  clamp(1.5rem, 2vw, 3rem); /*50px convertido para ficar responsivo 3.12rem */ 
-    color: white;
+    color: #34252F;
 
 }
 
@@ -45,33 +45,39 @@ nav {
 
 /* cabeçalho  */
 
-/* main  */
+/* main section1 */
 
 .section1 {
     display: grid;
     grid-template-columns: 2fr 1fr; 
-    background-image: url("/mar.jpg"); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #DDE2C6;                                    /* background-image: url("/mar.jpg");  *//* background-position: center;background-repeat: no-repeat;background-size: cover; */
     min-height: 500px;
+    border-bottom: 25px dotted black;
     
-    box-shadow: 5px 5px 5px #1f484a; 
+    box-shadow: 10px 10px 10px #1f484a; 
 }
 
 h2 {
     font-size:  clamp(2rem, 2vw, 5rem);
     font-weight: bold;
     margin: 40px 0px;
+    color: #34252F;
+    font-family: 'Playfair Display', serif;
 }
 
 .sobresite{
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     margin: 0 40px;
     font-size:  clamp(1.1rem, 1.5vw, 1.6rem);
-    color: white;
+    color: #91818A;
+    
+}
+
+.sobresite p {
+    margin-left: 50px;
     
 }
 
@@ -95,6 +101,17 @@ h2 {
     
 }
 
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.sobresite__direita p {
+    margin: 0px 20px;
+    text-align: center;
+}
+
 .fill{
     flex-grow: 1;
 }
@@ -107,5 +124,125 @@ h2 {
     padding-right: 20px;
     border: 1px solid black;
     border-radius: 5px;
+    margin-bottom: 20px;
 
+}
+
+.sobresite__botao:hover {
+    transform: scale(1.1);
+    transition: 400ms;
+    box-shadow: -10px 10px 10px white;
+    cursor: pointer;
+}
+
+/* main section1 */
+
+/* main section2 */
+
+.section2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    background: #E6EED6;                                    /* background-image: url("/mar.jpg");  */
+    background-position: center;
+    box-shadow: 10px 10px 10px #82b5b7; 
+}
+
+.imgpensando {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 40px;
+    font-size:  clamp(1.1rem, 1.5vw, 1.6rem);
+    color: #91818A;
+}
+
+.txtpensando {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+h4 {
+    font-size:  clamp(2rem, 2vw, 5rem);
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #34252F; 
+    font-family: 'Playfair Display', serif;
+
+}
+
+.txtpensando p {
+    font-size:  clamp(1.1rem, 1.5vw, 1.6rem);
+    color: #91818A;
+    
+
+}
+
+/* main section2 */
+
+/* main section3 */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    min-height: px;
+    padding: 100px;
+    background: #D1D8C3;
+    border-style: groove ;
+}
+
+.sectiontext3 {
+    font-size:  clamp(1.1rem, 1.5vw, 1.6rem);
+
+}
+
+.sectionpergunta3 {
+    margin-bottom: 10px;
+    color: #4C3C46;
+    font-weight: bold;
+}
+
+.sectionresposta3 {
+    margin-bottom: 20px;
+    color: #91818A;
+    border-bottom: 1px solid #4C3C46;
+    
+}
+
+/* main section3 */
+
+/* main section4 */
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: px;
+    padding: 50px;
+    padding-bottom: 100px;
+    background: #E6EED6;  
+}
+
+/* main section4 */
+
+/* main section4 */
+
+footer {
+    background: #BBC5AA;
+    border-top: 2px solid #4C3C46;
+}
+
+footer p {
+    text-align: center;
+}
+
+.footerbloco {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 40px;
 }
