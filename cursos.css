@@ -123,7 +123,7 @@ h1 {
     align-items: center;
     gap: 10px;
     margin: 20px;
-    color: #91818A;
+    color: white;
     font-size:  clamp(1.1rem, 1.5vw, 1.6rem);
     font-weight: bold;
     border-style: inset ;
@@ -132,17 +132,17 @@ h1 {
     width: 15vw;
     margin-bottom: 30px;
     padding: 10px;
-    
+    box-shadow: -15px 10px #34252F;
     
 }
 
 .bloquinho1 {
-    background-color: aqua;
+    background-color: #336699;
 
 }
 
 .bloquinho2 {
-    background-color: aquamarine;
+    background-color: #558B6E;
 
 }
 
@@ -162,17 +162,58 @@ h1 {
    
 }
 
-.section3 p {
-    font-size:  clamp(1.1rem, 1.5vw, 1.6rem);
-    color: #91818A;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.section3__precoantigo{
+    color: white;
+    font-size:  clamp(1.2rem, 3vw, 3rem);
+    font-weight: bold;
+}
+
+.section3__parcela {
+    color: #34252F;
+    font-size:  clamp(1.2rem, 2.5vw, 2.5rem);
+    font-weight: bold;
+    padding-top: 40px;
+    
+}
+
+.section3__valor {
+    color: #34252F;
+    font-size:  clamp(1.2rem, 5vw, 5rem);
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.section3__avista {
+    color: #34252F;
+    font-size:  clamp(1.1rem, 1.5vw, 1.5rem);
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.section3__botao{
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 40px;
+    background: white;
+    margin: 50px 0 ;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .section3 h1 {
     margin-top: 30px;
     margin-bottom: 90px;
 }
+
+.section3__cert{
+    color: #34252F;
+    font-size:  clamp(1.1rem, 1.5vw, 1.5rem);
+    padding: 20px;
+}
+
+/* section3  */
 
 footer {
     background: #BBC5AA;
