@@ -290,3 +290,76 @@ footer a{
     margin-left: 20px;
     text-decoration: none;
 }
+
+/* main section4 */
+/* footer */
+
+@media (max-width: 850px) {
+    nav{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .navlink{
+    display: none;
+    }
+
+
+
+    .section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sobresite{
+        margin: 0px;
+    }
+
+    .sobresite p {
+        margin: 0px 5px;
+    }
+       
+    .sobresite__botao{
+        margin-bottom: 50px;
+    }
+    
+    .section2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imgpensando{
+        display: none;
+
+    }
+
+    .txtpensando{
+        margin: 0;
+    }
+
+    .section3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .footerbloco{
+        display: none;
+    }
+    
+}
