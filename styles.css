@@ -63,9 +63,8 @@ h2 {
     margin: 40px;
     color: #34252F;
     font-family: 'Playfair Display', serif;
-    background: #BBC5AA;
-    border-radius: 5px;
-    padding: 5px;
+    text-align: start;
+    
 }
 
 span {
@@ -76,8 +75,8 @@ span {
 .sobresite{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    text-align: start;
+    align-items: start;
     margin: 0 40px;
     font-size:  clamp(1.1rem, 1.5vw, 1.6rem);
     color: #91818A;
@@ -94,6 +93,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: contain;
 }
 
 .sobresite__botao{
@@ -306,6 +306,10 @@ footer a{
     display: none;
     }
 
+    h2{
+        align-items: center;
+        text-align: center;
+    }
 
 
     .section1{
@@ -317,6 +321,8 @@ footer a{
 
     .sobresite{
         margin: 0px;
+        align-items: center;
+        text-align: center;
     }
 
     .sobresite p {
